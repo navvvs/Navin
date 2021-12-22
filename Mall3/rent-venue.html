@@ -2,6 +2,10 @@
 <html lang="en">
 
   <head>
+    <script>
+        var bleep = new Audio();
+        bleep.src="button.mp3";
+    </script>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -9,7 +13,7 @@
     <meta name="author" content="Tooplate">
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
 
-    <title>ArtXibition Template - Rent a venue</title>
+    <title>Rent a Venue</title>
 
 
     <!-- Additional CSS Files -->
@@ -20,13 +24,7 @@
     <link rel="stylesheet" type="text/css" href="assets/css/owl-carousel.css">
 
     <link rel="stylesheet" href="assets/css/tooplate-artxibition.css">
-<!--
 
-Tooplate 2125 ArtXibition
-
-https://www.tooplate.com/view/2125-artxibition
-
--->
     </head>
     
     <body>
@@ -67,15 +65,15 @@ https://www.tooplate.com/view/2125-artxibition
                 <div class="col-12">
                     <nav class="main-nav">
                         <!-- ***** Logo Start ***** -->
-                        <a href="index.html" class="logo">Art<em>Xibition</em></a>
+                        <a href="index.html" class="logo">Mall<em>Name</em></a>
                         <!-- ***** Logo End ***** -->
                         <!-- ***** Menu Start ***** -->
                         <ul class="nav">
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="about.html">About Us</a></li>
-                            <li><a href="rent-venue.html" class="active">Rent Venue</a></li>
-                            <li><a href="shows-events.html">Shows & Events</a></li> 
-                            <li><a href="tickets.html">Tickets</a></li> 
+                            <li><a href="index.html" onmousedown="bleep.play()">Home</a></li>
+                            <li><a href="about.html" onmousedown="bleep.play()">About Us</a></li>
+                            <li><a href="rent-venue.html" onmousedown="bleep.play()" class="active">Rent Venue</a></li>
+                            <li><a href="shows-events.html" onmousedown="bleep.play()">Shows & Events</a></li> 
+                            <li><a href="tickets.html" onmousedown="bleep.play()">Tickets</a></li> 
                         </ul>        
                         <a class='menu-trigger'>
                             <span>Menu</span>
@@ -110,9 +108,9 @@ https://www.tooplate.com/view/2125-artxibition
                                 <div class="row">
                                     <div class="col-lg-8">
                                         <ul>
-                                          <li><a href='#tabs-1'>Madison Square Garden</a></li>
-                                          <li><a href='#tabs-2'>Radio City Musical Hall</a></a></li>
-                                          <li><a href='#tabs-3'>Royce Hall</a></a></li>
+                                          <li><a href='#tabs-1'>Event Hall 1</a></li>
+                                          <li><a href='#tabs-2'>Event Hall 2</a></a></li>
+                                          <li><a href='#tabs-3'>Event Hall 3</a></a></li>
                                         </ul>
                                     </div>
                                     <div class="col-lg-4">
@@ -129,18 +127,17 @@ https://www.tooplate.com/view/2125-artxibition
                                     <div class="row">
                                         <div class="col-lg-9">
                                             <div class="right-content">
-                                                <h4>Madison Square Garden</h4>
-                                                <p>ArtXibition Event Template is brought to you by Tooplate website and it included total 7 HTML pages. 
-                        These are <a href="index.html">Homepage</a>, <a href="about.html">About</a>, 
-                        <a href="rent-venue.html">Rent a venue</a>, <a href="shows-events.html">shows &amp; events</a>, 
-                        <a href="event-details.html">event details</a>, <a href="tickets.html">tickets</a>, and <a href="ticket-details.html">ticket details</a>. 
-                        You can feel free to modify any page as you like. If you have any question, please visit our <a href="https://www.tooplate.com/contact" target="_blank">Contact page</a>.
+                                                <h4>Event Hall 1</h4>
+                                                <p>This webpage has various pages, These are <a href="index.html">Homepage</a>, <a href="about.html">About</a>, 
+                                                <a href="rent-venue.html">Rent a venue</a>, <a href="shows-events.html">shows &amp; events</a>, 
+                                                <a href="event-details.html">event details</a>, <a href="tickets.html">tickets</a>, and <a href="ticket-details.html">ticket details</a>. 
+                                                I will try to edit it more at a later date, for the time being, you could click this <a href="" target="_blank">blue button </a>.
+                                                </p>
                         
-                        <br><br>If you need the latest HTML templates, you may visit <a href="https://www.toocss.com/" target="_blank">Too CSS</a> website that features a great collection of templates in different categories.</p>
                                                 <ul class="list">
-                                                    <li>Madison Square Garden</li>
-                                                    <li>$2,840 per day</li>
-                                                    <li>860 Guests</li>
+                                                    <li>Event hall 1</li>
+                                                    <li>₹30,000 per day</li>
+                                                    <li>800 Guests</li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -313,8 +310,8 @@ https://www.tooplate.com/view/2125-artxibition
             <div class="row">
                 <div class="col-lg-4">
                     <div class="address">
-                        <h4>Sunny Hill Festival Address</h4>
-                        <span>5 College St NW, <br>Norcross, GA 30071<br>United States</span>
+                        <h4>The mall name Address</h4>
+                        <span>Some street, some area, <br>some place, PIN Code<br>Bengaluru</span>
                     </div>
                 </div>
                 <div class="col-lg-4">
@@ -343,10 +340,10 @@ https://www.tooplate.com/view/2125-artxibition
                     <div class="under-footer">
                         <div class="row">
                             <div class="col-lg-6">
-                                <p>São Conrado, Rio de Janeiro</p>
+                                <p>Bengaluru, Karnataka</p>
                             </div>
                             <div class="col-lg-6">
-                                <p class="copyright">Copyright 2021 ArtXibition Company 
+                                <p class="copyright">Copyright 2021 Navin's Company 
                     
                     			<br>Design: <a rel="nofollow" href="https://www.tooplate.com" target="_parent">Tooplate</a></p>
                             </div>
@@ -357,7 +354,7 @@ https://www.tooplate.com/view/2125-artxibition
                     <div class="sub-footer">
                         <div class="row">
                             <div class="col-lg-3">
-                                <div class="logo"><span>Art<em>Xibition</em></span></div>
+                                <div class="logo"><span>Mall<em>Name</em></span></div>
                             </div>
                             <div class="col-lg-6">
                                 <div class="menu">

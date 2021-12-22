@@ -2,6 +2,10 @@
 <html lang="en">
 
   <head>
+    <script>
+        var bleep = new Audio();
+        bleep.src="button.mp3";
+    </script>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -9,7 +13,7 @@
     <meta name="author" content="Tooplate">
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
 
-    <title>ArtXibition Template - Shows and Events Page</title>
+    <title>Shows/Event</title>
 
 
     <!-- Additional CSS Files -->
@@ -20,13 +24,7 @@
     <link rel="stylesheet" type="text/css" href="assets/css/owl-carousel.css">
 
     <link rel="stylesheet" href="assets/css/tooplate-artxibition.css">
-<!--
 
-Tooplate 2125 ArtXibition
-
-https://www.tooplate.com/view/2125-artxibition
-
--->
     </head>
     
     <body>
@@ -67,15 +65,15 @@ https://www.tooplate.com/view/2125-artxibition
                 <div class="col-12">
                     <nav class="main-nav">
                         <!-- ***** Logo Start ***** -->
-                        <a href="index.html" class="logo">Art<em>Xibition</em></a>
+                        <a href="index.html" class="logo">Mall<em>Name</em></a>
                         <!-- ***** Logo End ***** -->
                         <!-- ***** Menu Start ***** -->
                         <ul class="nav">
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="about.html">About Us</a></li>
-                            <li><a href="rent-venue.html">Rent Venue</a></li>
-                            <li><a href="shows-events.html" class="active">Shows & Events</a></li> 
-                            <li><a href="tickets.html">Tickets</a></li> 
+                            <li><a href="index.html" onmousedown="bleep.play()">Home</a></li>
+                            <li><a href="about.html" onmousedown="bleep.play()">About Us</a></li>
+                            <li><a href="rent-venue.html" onmousedown="bleep.play()">Rent Venue</a></li>
+                            <li><a href="shows-events.html" onmousedown="bleep.play()" class="active">Shows & Events</a></li> 
+                            <li><a href="tickets.html" onmousedown="bleep.play()">Tickets</a></li> 
                         </ul>        
                         <a class='menu-trigger'>
                             <span>Menu</span>
@@ -161,9 +159,9 @@ https://www.tooplate.com/view/2125-artxibition
                                                         <div class="venues">
                                                             <h6>Venues</h6>
                                                             <ul>
-                                                                <li><a href="#">Radio City Musical Hall</a></li>
-                                                                <li><a href="#">Madison Square Garden</a></li>
-                                                                <li><a href="#">Royce Hall</a></li>
+                                                                <li><a href="#">Event Hall 1</a></li>
+                                                                <li><a href="#">Event Hall 2</a></li>
+                                                                <li><a href="#">Event Hall 3</a></li>
                                                             </ul>
                                                         </div>
                                                     </div>
@@ -177,7 +175,7 @@ https://www.tooplate.com/view/2125-artxibition
                                                         <div class="row">
                                                             <div class="col-lg-4">
                                                                 <div class="left-content">
-                                                                    <h4>Tiger Land Festival</h4>
+                                                                    <h4>Some Festival</h4>
                                                                     <p>Lorem ipsum dolor sit amet, consectetur do adipiscing eliterirt sed eiusmod alori...</p>
                                                                     <div class="main-dark-button"><a href="event-details.html">Discover More</a></div>
                                                                 </div>
@@ -196,7 +194,7 @@ https://www.tooplate.com/view/2125-artxibition
                                                                         </li>
                                                                         <li>
                                                                             <i class="fa fa-map-marker"></i>
-                                                                            <span>Copacabana Beach, Rio de Janeiro</span>
+                                                                            <span>Bengaluru, Karnataka</span>
                                                                         </li>
                                                                         <li>
                                                                             <i class="fa fa-users"></i>
@@ -213,7 +211,7 @@ https://www.tooplate.com/view/2125-artxibition
                                                         <div class="row">
                                                             <div class="col-lg-4">
                                                                 <div class="left-content">
-                                                                    <h4>Super Rock Festival</h4>
+                                                                    <h4>Another Festival</h4>
                                                                     <p>Lorem ipsum dolor sit amet, consectetur do adipiscing eliterirt sed eiusmod alori...</p>
                                                                     <div class="main-dark-button"><a href="event-details.html">Discover More</a></div>
                                                                 </div>
@@ -232,7 +230,7 @@ https://www.tooplate.com/view/2125-artxibition
                                                                         </li>
                                                                         <li>
                                                                             <i class="fa fa-map-marker"></i>
-                                                                            <span>Copacabana Beach, Rio de Janeiro</span>
+                                                                            <span>Bengaluru, Karnataka</span>
                                                                         </li>
                                                                         <li>
                                                                             <i class="fa fa-users"></i>
@@ -249,7 +247,7 @@ https://www.tooplate.com/view/2125-artxibition
                                                         <div class="row">
                                                             <div class="col-lg-4">
                                                                 <div class="left-content">
-                                                                    <h4>Rocky Hill Festival</h4>
+                                                                    <h4>Yet another festival</h4>
                                                                     <p>Lorem ipsum dolor sit amet, consectetur do adipiscing eliterirt sed eiusmod alori...</p>
                                                                     <div class="main-dark-button"><a href="event-details.html">Discover More</a></div>
                                                                 </div>
@@ -268,7 +266,7 @@ https://www.tooplate.com/view/2125-artxibition
                                                                         </li>
                                                                         <li>
                                                                             <i class="fa fa-map-marker"></i>
-                                                                            <span>908Copacabana Beach, Rio de Janeiro</span>
+                                                                            <span>Bengaluru, Karnataka</span>
                                                                         </li>
                                                                         <li>
                                                                             <i class="fa fa-users"></i>
@@ -285,7 +283,7 @@ https://www.tooplate.com/view/2125-artxibition
                                                         <div class="row">
                                                             <div class="col-lg-4">
                                                                 <div class="left-content">
-                                                                    <h4>Hip Hop Special</h4>
+                                                                    <h4>Last Festival</h4>
                                                                     <p>Lorem ipsum dolor sit amet, consectetur do adipiscing eliterirt sed eiusmod alori...</p>
                                                                     <div class="main-dark-button"><a href="event-details.html">Discover More</a></div>
                                                                 </div>
@@ -304,7 +302,7 @@ https://www.tooplate.com/view/2125-artxibition
                                                                         </li>
                                                                         <li>
                                                                             <i class="fa fa-map-marker"></i>
-                                                                            <span>Copacabana Beach, Rio de Janeiro</span>
+                                                                            <span>Bengaluru, Karnataka</span>
                                                                         </li>
                                                                         <li>
                                                                             <i class="fa fa-users"></i>
@@ -368,9 +366,9 @@ https://www.tooplate.com/view/2125-artxibition
                                                         <div class="venues">
                                                             <h6>Venues</h6>
                                                             <ul>
-                                                                <li><a href="#">Radio City Musical Hall</a></li>
-                                                                <li><a href="#">Madison Square Garden</a></li>
-                                                                <li><a href="#">Royce Hall</a></li>
+                                                                <li><a href="#">Event Hall 1</a></li>
+                                                                <li><a href="#">Event Hall 2</a></li>
+                                                                <li><a href="#">Event Hall 3</a></li>
                                                             </ul>
                                                         </div>
                                                     </div>
@@ -384,7 +382,7 @@ https://www.tooplate.com/view/2125-artxibition
                                                         <div class="row">
                                                             <div class="col-lg-4">
                                                                 <div class="left-content">
-                                                                    <h4>Water Splash Festival</h4>
+                                                                    <h4>Previous Festival</h4>
                                                                     <p>Lorem ipsum dolor sit amet, consectetur do adipiscing eliterirt sed eiusmod alori...</p>
                                                                     <div class="main-dark-button"><a href="event-details.html">Discover More</a></div>
                                                                 </div>
@@ -403,7 +401,8 @@ https://www.tooplate.com/view/2125-artxibition
                                                                         </li>
                                                                         <li>
                                                                             <i class="fa fa-map-marker"></i>
-                                                                            <span>Copacabana Beach, Rio de Janeiro</span>
+                                                                            <span>Bengaluru, Karnataka
+                                                                            </span>
                                                                         </li>
                                                                         <li>
                                                                             <i class="fa fa-users"></i>
@@ -420,7 +419,7 @@ https://www.tooplate.com/view/2125-artxibition
                                                         <div class="row">
                                                             <div class="col-lg-4">
                                                                 <div class="left-content">
-                                                                    <h4>Sunny Hill Festival</h4>
+                                                                    <h4>Another Previous Festival</h4>
                                                                     <p>Lorem ipsum dolor sit amet, consectetur do adipiscing eliterirt sed eiusmod alori...</p>
                                                                     <div class="main-dark-button"><a href="event-details.html">Discover More</a></div>
                                                                 </div>
@@ -439,7 +438,7 @@ https://www.tooplate.com/view/2125-artxibition
                                                                         </li>
                                                                         <li>
                                                                             <i class="fa fa-map-marker"></i>
-                                                                            <span>Copacabana Beach, Rio de Janeiro</span>
+                                                                            <span>Bengaluru, Karnataka</span>
                                                                         </li>
                                                                         <li>
                                                                             <i class="fa fa-users"></i>
@@ -456,7 +455,7 @@ https://www.tooplate.com/view/2125-artxibition
                                                         <div class="row">
                                                             <div class="col-lg-4">
                                                                 <div class="left-content">
-                                                                    <h4>New Rock Festival</h4>
+                                                                    <h4>Wow Another Previous Festival</h4>
                                                                     <p>Lorem ipsum dolor sit amet, consectetur do adipiscing eliterirt sed eiusmod alori...</p>
                                                                     <div class="main-dark-button"><a href="event-details.html">Discover More</a></div>
                                                                 </div>
@@ -475,7 +474,7 @@ https://www.tooplate.com/view/2125-artxibition
                                                                         </li>
                                                                         <li>
                                                                             <i class="fa fa-map-marker"></i>
-                                                                            <span>Copacabana Beach, Rio de Janeiro</span>
+                                                                            <span>Bengaluru, Karnataka</span>
                                                                         </li>
                                                                         <li>
                                                                             <i class="fa fa-users"></i>
@@ -492,7 +491,7 @@ https://www.tooplate.com/view/2125-artxibition
                                                         <div class="row">
                                                             <div class="col-lg-4">
                                                                 <div class="left-content">
-                                                                    <h4>Monkey Dance Festival</h4>
+                                                                    <h4>Last Previous Festival</h4>
                                                                     <p>Lorem ipsum dolor sit amet, consectetur do adipiscing eliterirt sed eiusmod alori...</p>
                                                                     <div class="main-dark-button"><a href="event-details.html">Discover More</a></div>
                                                                 </div>
@@ -511,7 +510,7 @@ https://www.tooplate.com/view/2125-artxibition
                                                                         </li>
                                                                         <li>
                                                                             <i class="fa fa-map-marker"></i>
-                                                                            <span>Copacabana Beach, Rio de Janeiro</span>
+                                                                            <span>Bengaluru, Karnataka</span>
                                                                         </li>
                                                                         <li>
                                                                             <i class="fa fa-users"></i>
@@ -580,8 +579,8 @@ https://www.tooplate.com/view/2125-artxibition
             <div class="row">
                 <div class="col-lg-4">
                     <div class="address">
-                        <h4>Sunny Hill Festival Address</h4>
-                        <span>5 College St NW, <br>Norcross, GA 30071<br>United States</span>
+                        <h4>The mall name Address</h4>
+                        <span>Some street, some area, <br>some place, PIN Code<br>Bengaluru</span>
                     </div>
                 </div>
                 <div class="col-lg-4">
@@ -610,12 +609,10 @@ https://www.tooplate.com/view/2125-artxibition
                     <div class="under-footer">
                         <div class="row">
                             <div class="col-lg-6">
-                                <p>São Conrado, Rio de Janeiro</p>
+                                <p>Bengaluru, Karnataka</p>
                             </div>
                             <div class="col-lg-6">
-                                <p class="copyright">Copyright 2021 ArtXibition Company 
-                    
-                    			<br>Design: <a rel="nofollow" href="https://www.tooplate.com" target="_parent">Tooplate</a></p>
+                                <p class="copyright">Copyright 2021 Navin's Company</p>
                             </div>
                         </div>
                     </div>
@@ -624,16 +621,16 @@ https://www.tooplate.com/view/2125-artxibition
                     <div class="sub-footer">
                         <div class="row">
                             <div class="col-lg-3">
-                                <div class="logo"><span>Art<em>Xibition</em></span></div>
+                                <div class="logo"><span>Mall<em>Name</em></span></div>
                             </div>
                             <div class="col-lg-6">
                                 <div class="menu">
                                     <ul>
-                                        <li><a href="index.html" class="active">Home</a></li>
-                                        <li><a href="about.html">About Us</a></li>
-                                        <li><a href="rent-venue.html">Rent Venue</a></li>
-                                        <li><a href="shows-events.html">Shows & Events</a></li> 
-                                        <li><a href="tickets.html">Tickets</a></li> 
+                                        <li><a href="index.html"  onmousedown="bleep.play()" class="active">Home</a></li>
+                                        <li><a href="about.html"  onmousedown="bleep.play()">About Us</a></li>
+                                        <li><a href="rent-venue.html"  onmousedown="bleep.play()">Rent Venue</a></li>
+                                        <li><a href="shows-events.html"  onmousedown="bleep.play()">Shows & Events</a></li> 
+                                        <li><a href="tickets.html"  onmousedown="bleep.play()">Tickets</a></li> 
                                     </ul>
                                 </div>
                             </div>

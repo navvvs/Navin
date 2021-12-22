@@ -2,6 +2,10 @@
 <html lang="en">
 
   <head>
+    <script>
+        var bleep = new Audio();
+        bleep.src="button.mp3";
+    </script>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -20,13 +24,7 @@
     <link rel="stylesheet" type="text/css" href="assets/css/owl-carousel.css">
 
     <link rel="stylesheet" href="assets/css/tooplate-artxibition.css">
-<!--
 
-Tooplate 2125 ArtXibition
-
-https://www.tooplate.com/view/2125-artxibition
-
--->
     </head>
     
     <body>
@@ -70,11 +68,11 @@ https://www.tooplate.com/view/2125-artxibition
                         <!-- ***** Logo End ***** -->
                         <!-- ***** Menu Start ***** -->
                         <ul class="nav">
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="about.html">About Us</a></li>
-                            <li><a href="rent-venue.html">Rent Venue</a></li>
-                            <li><a href="shows-events.html" class="active">Shows & Events</a></li> 
-                            <li><a href="tickets.html">Tickets</a></li> 
+                            <li><a href="index.html" onmousedown="bleep.play()">Home</a></li>
+                            <li><a href="about.html" onmousedown="bleep.play()">About Us</a></li>
+                            <li><a href="rent-venue.html" onmousedown="bleep.play()">Rent Venue</a></li>
+                            <li><a href="shows-events.html" onmousedown="bleep.play()" class="active">Shows & Events</a></li> 
+                            <li><a href="tickets.html" onmousedown="bleep.play()">Tickets</a></li> 
                         </ul>        
                         <a class='menu-trigger'>
                             <span>Menu</span>
@@ -318,9 +316,7 @@ https://www.tooplate.com/view/2125-artxibition
                                 <p>Bangalore, Karnataka</p>
                             </div>
                             <div class="col-lg-6">
-                                <p class="copyright">Copyright 2021 Navin's Company 
-                    
-                    			<br>Design: <a rel="nofollow" href="https://www.tooplate.com" target="_parent">Tooplate</a></p>
+                                <p class="copyright">Copyright 2021 Navin's Company</p>
                             </div>
                         </div>
                     </div>
@@ -334,11 +330,11 @@ https://www.tooplate.com/view/2125-artxibition
                             <div class="col-lg-6">
                                 <div class="menu">
                                     <ul>
-                                        <li><a href="index.html" class="active">Home</a></li>
-                                        <li><a href="about.html">About Us</a></li>
-                                        <li><a href="rent-venue.html">Rent Venue</a></li>
-                                        <li><a href="shows-events.html">Shows & Events</a></li> 
-                                        <li><a href="tickets.html">Tickets</a></li> 
+                                        <li><a href="index.html"  onmousedown="bleep.play()" class="active">Home</a></li>
+                                        <li><a href="about.html"  onmousedown="bleep.play()">About Us</a></li>
+                                        <li><a href="rent-venue.html"  onmousedown="bleep.play()">Rent Venue</a></li>
+                                        <li><a href="shows-events.html"  onmousedown="bleep.play()">Shows & Events</a></li> 
+                                        <li><a href="tickets.html" onmousedown="bleep.play()">Tickets</a></li> 
                                     </ul>
                                 </div>
                             </div>

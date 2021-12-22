@@ -653,6 +653,7 @@ banner
 }
 
 .main-banner .counter-content li {
+  
   display: inline-block;
   font-size: 14px;
   list-style-type: none;
